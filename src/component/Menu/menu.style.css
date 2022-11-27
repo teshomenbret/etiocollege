@@ -1,0 +1,35 @@
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(150, 15, 199);
+}
+.menu-logo{
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    width: 40%;
+    color:white;
+}
+.menu-list{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around; 
+   padding-right: 50px;
+}
+.menu{
+    text-decoration: none;
+    font-size: 1.5em;
+    list-style: none;
+    padding: 16px;
+    color:white;
+    cursor:pointer;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+.h{
+    background-color : white;   
+}
